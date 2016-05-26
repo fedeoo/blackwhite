@@ -1,0 +1,53 @@
+header {
+  position: relative;
+}
+.header .container {
+  padding-bottom: 10px;
+}
+.warpbg {
+  background-size: cover;
+  height: 50px;
+  z-index: 100;
+}
+/**
+ * logo
+ */
+span.logo {
+  display: inline-block;
+  background: url("../../../img/logo.png");
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  vertical-align: middle;
+}
+/**
+ * icon-bar ,背景颜色改一下
+ */
+.icon-bar {
+  background-color: #049fbb;
+}
+.slide-img {
+  width: 100%;
+  height: 455px !important;
+}
+.navbar-brand {
+  padding: 7px 15px;
+}
+.navbar-fixed-top {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+/*对话框的样式需要调整*/
+.modal-body {
+  padding: 15px 30px;
+}
+.form-group {
+  height: 34px;
+  line-height: 34px;
+}
+.form-group label {
+  text-align: right;
+  padding: 5px;
+}
